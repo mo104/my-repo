@@ -29,7 +29,7 @@ public class uniCoursework {
 		
 		userScanner.close(); //closing user scanner as its no longer needed
 		
-		FileReader filename = new FileReader("C:\\Users\\moham\\OneDrive\\Desktop\\rooms.txt"); //The directory for a file that the program would read *NOTE* the txt file should not have a empty line as its last line
+		FileReader filename = new FileReader("C:\\Users\\myName\\OneDrive\\Desktop\\rooms.txt"); //The directory for a file that the program would read *NOTE* the txt file should not have a empty line as its last line
 		Scanner file_Scan = new Scanner(filename);
 		
 		String room_Type;
